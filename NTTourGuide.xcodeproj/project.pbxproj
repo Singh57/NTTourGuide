@@ -14,6 +14,8 @@
 		07B7DBCF1BC69A12009AF575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBCE1BC69A12009AF575 /* Images.xcassets */; };
 		07B7DBD21BC69A12009AF575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBD01BC69A12009AF575 /* LaunchScreen.xib */; };
 		07B7DBDE1BC69A12009AF575 /* NTTourGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBDD1BC69A12009AF575 /* NTTourGuideTests.m */; };
+		07B7DBE91BC69AA9009AF575 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBE81BC69AA9009AF575 /* MainViewController.m */; };
+		07B7DBEC1BC69FFE009AF575 /* Rmf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		07B7DBD71BC69A12009AF575 /* NTTourGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTTourGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B7DBDC1BC69A12009AF575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07B7DBDD1BC69A12009AF575 /* NTTourGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTTourGuideTests.m; sourceTree = "<group>"; };
+		07B7DBE71BC69AA9009AF575 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		07B7DBE81BC69AA9009AF575 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rmf.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 				07B7DBC01BC69A12009AF575 /* NTTourGuide */,
 				07B7DBDA1BC69A12009AF575 /* NTTourGuideTests */,
 				07B7DBBF1BC69A12009AF575 /* Products */,
+				07B7DBEA1BC69FC0009AF575 /* MediaFiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +89,8 @@
 			children = (
 				07B7DBC51BC69A12009AF575 /* AppDelegate.h */,
 				07B7DBC61BC69A12009AF575 /* AppDelegate.m */,
+				07B7DBE71BC69AA9009AF575 /* MainViewController.h */,
+				07B7DBE81BC69AA9009AF575 /* MainViewController.m */,
 				07B7DBC81BC69A12009AF575 /* ViewController.h */,
 				07B7DBC91BC69A12009AF575 /* ViewController.m */,
 				07B7DBCB1BC69A12009AF575 /* Main.storyboard */,
@@ -117,6 +125,14 @@
 				07B7DBDC1BC69A12009AF575 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07B7DBEA1BC69FC0009AF575 /* MediaFiles */ = {
+			isa = PBXGroup;
+			children = (
+				07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */,
+			);
+			name = MediaFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +217,7 @@
 			files = (
 				07B7DBCD1BC69A12009AF575 /* Main.storyboard in Resources */,
 				07B7DBD21BC69A12009AF575 /* LaunchScreen.xib in Resources */,
+				07B7DBEC1BC69FFE009AF575 /* Rmf.mp3 in Resources */,
 				07B7DBCF1BC69A12009AF575 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +239,7 @@
 				07B7DBCA1BC69A12009AF575 /* ViewController.m in Sources */,
 				07B7DBC71BC69A12009AF575 /* AppDelegate.m in Sources */,
 				07B7DBC41BC69A12009AF575 /* main.m in Sources */,
+				07B7DBE91BC69AA9009AF575 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
