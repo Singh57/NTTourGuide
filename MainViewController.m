@@ -15,18 +15,11 @@
 @implementation MainViewController
 
 //@synthesize fbLikeWebView = _fbLikeWebView;
-@synthesize fb,WebView1;
+@synthesize fb;
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    NSString *httpURL = @"http://www.travelnt.com/";
-  
-    
-    NSURL *fullURL = [NSURL URLWithString:httpURL];
-    NSURLRequest *httpRequest = [NSURLRequest requestWithURL:fullURL];
-    [WebView1 loadRequest:httpRequest];
 
 }
 

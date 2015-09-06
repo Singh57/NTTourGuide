@@ -19,7 +19,6 @@
 
 //-(void)embedFBLikeButton;
 @property (weak, nonatomic) IBOutlet UIButton *fb;
-@property (strong, nonatomic) IBOutlet UIWebView *WebView1;
 -(IBAction)fbButtonTap:(id)sender;
 
 @end
