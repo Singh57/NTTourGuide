@@ -16,6 +16,26 @@
 		07B7DBE91BC69AA9009AF575 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBE81BC69AA9009AF575 /* MainViewController.m */; };
 		07B7DBEC1BC69FFE009AF575 /* Rmf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */; };
 		07B7DBEF1BC69FFE009AF575 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBED1BC69FFE009AF575 /* WebViewController.m */; };
+		07B7DBF61BC69FFE009AF575 /* clsFeedItem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF11BC69FFE009AF575 /* clsFeedItem1.m */; };
+		07B7DBF71BC69FFE009AF575 /* NTHighlightCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF31BC69FFE009AF575 /* NTHighlightCell1.m */; };
+		07B7DBF81BC69FFE009AF575 /* NTHighlightCellDIs1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */; };
+		07B7DC0A1BC69FFE009AF575 /* guidetravel.png alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBF91BC69FFE009AF575 /* guidetravel.png alias 2 */; };
+		07B7DC0B1BC69FFE009AF575 /* tenantcreek1.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBFA1BC69FFE009AF575 /* tenantcreek1.jpg alias 2 */; };
+		07B7DC0C1BC69FFE009AF575 /* ww24.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBFB1BC69FFE009AF575 /* ww24.jpg alias 2 */; };
+		07B7DC0D1BC69FFE009AF575 /* olgas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBFC1BC69FFE009AF575 /* olgas.jpg */; };
+		07B7DC0E1BC69FFE009AF575 /* NTMapHome.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBFD1BC69FFE009AF575 /* NTMapHome.jpg alias 2 */; };
+		07B7DC0F1BC69FFE009AF575 /* maryriver.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBFE1BC69FFE009AF575 /* maryriver.jpg alias 2 */; };
+		07B7DC101BC69FFE009AF575 /* maryriver.jpg alias 3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBFF1BC69FFE009AF575 /* maryriver.jpg alias 3 */; };
+		07B7DC111BC69FFE009AF575 /* arnhem1.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC001BC69FFE009AF575 /* arnhem1.jpg alias 2 */; };
+		07B7DC121BC69FFE009AF575 /* katherine.jpg alias in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC011BC69FFE009AF575 /* katherine.jpg alias */; };
+		07B7DC131BC69FFE009AF575 /* kakadu.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC021BC69FFE009AF575 /* kakadu.jpg alias 2 */; };
+		07B7DC141BC69FFE009AF575 /* darwin1.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC031BC69FFE009AF575 /* darwin1.jpg alias 2 */; };
+		07B7DC151BC69FFE009AF575 /* ww25adelaide.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC041BC69FFE009AF575 /* ww25adelaide.jpg alias 2 */; };
+		07B7DC161BC69FFE009AF575 /* NT_Map.png alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC051BC69FFE009AF575 /* NT_Map.png alias 2 */; };
+		07B7DC171BC69FFE009AF575 /* ww22aviation.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC061BC69FFE009AF575 /* ww22aviation.jpg alias 2 */; };
+		07B7DC181BC69FFE009AF575 /* darwinhistory1.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC071BC69FFE009AF575 /* darwinhistory1.jpg alias 2 */; };
+		07B7DC191BC69FFE009AF575 /* ww21tunnel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC081BC69FFE009AF575 /* ww21tunnel.jpg */; };
+		07B7DC1A1BC69FFE009AF575 /* ww23.jpg alias 2 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DC091BC69FFE009AF575 /* ww23.jpg alias 2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +65,29 @@
 		07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rmf.mp3; sourceTree = "<group>"; };
 		07B7DBED1BC69FFE009AF575 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		07B7DBEE1BC69FFE009AF575 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		07B7DBF01BC69FFE009AF575 /* clsFeedItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clsFeedItem1.h; sourceTree = "<group>"; };
+		07B7DBF11BC69FFE009AF575 /* clsFeedItem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clsFeedItem1.m; sourceTree = "<group>"; };
+		07B7DBF21BC69FFE009AF575 /* NTHighlightCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHighlightCell1.h; sourceTree = "<group>"; };
+		07B7DBF31BC69FFE009AF575 /* NTHighlightCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHighlightCell1.m; sourceTree = "<group>"; };
+		07B7DBF41BC69FFE009AF575 /* NTHighlightCellDIs1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHighlightCellDIs1.h; sourceTree = "<group>"; };
+		07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHighlightCellDIs1.m; sourceTree = "<group>"; };
+		07B7DBF91BC69FFE009AF575 /* guidetravel.png alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guidetravel.png alias 2"; sourceTree = "<group>"; };
+		07B7DBFA1BC69FFE009AF575 /* tenantcreek1.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tenantcreek1.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DBFB1BC69FFE009AF575 /* ww24.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ww24.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DBFC1BC69FFE009AF575 /* olgas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = olgas.jpg; sourceTree = "<group>"; };
+		07B7DBFD1BC69FFE009AF575 /* NTMapHome.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NTMapHome.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DBFE1BC69FFE009AF575 /* maryriver.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "maryriver.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DBFF1BC69FFE009AF575 /* maryriver.jpg alias 3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "maryriver.jpg alias 3"; sourceTree = "<group>"; };
+		07B7DC001BC69FFE009AF575 /* arnhem1.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arnhem1.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DC011BC69FFE009AF575 /* katherine.jpg alias */ = {isa = PBXFileReference; lastKnownFileType = file; path = "katherine.jpg alias"; sourceTree = "<group>"; };
+		07B7DC021BC69FFE009AF575 /* kakadu.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kakadu.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DC031BC69FFE009AF575 /* darwin1.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "darwin1.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DC041BC69FFE009AF575 /* ww25adelaide.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ww25adelaide.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DC051BC69FFE009AF575 /* NT_Map.png alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NT_Map.png alias 2"; sourceTree = "<group>"; };
+		07B7DC061BC69FFE009AF575 /* ww22aviation.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ww22aviation.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DC071BC69FFE009AF575 /* darwinhistory1.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "darwinhistory1.jpg alias 2"; sourceTree = "<group>"; };
+		07B7DC081BC69FFE009AF575 /* ww21tunnel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ww21tunnel.jpg; sourceTree = "<group>"; };
+		07B7DC091BC69FFE009AF575 /* ww23.jpg alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ww23.jpg alias 2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +111,12 @@
 		07B7DBB51BC69A12009AF575 = {
 			isa = PBXGroup;
 			children = (
+				07B7DBF01BC69FFE009AF575 /* clsFeedItem1.h */,
+				07B7DBF11BC69FFE009AF575 /* clsFeedItem1.m */,
+				07B7DBF21BC69FFE009AF575 /* NTHighlightCell1.h */,
+				07B7DBF31BC69FFE009AF575 /* NTHighlightCell1.m */,
+				07B7DBF41BC69FFE009AF575 /* NTHighlightCellDIs1.h */,
+				07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */,
 				07B7DBC01BC69A12009AF575 /* NTTourGuide */,
 				07B7DBDA1BC69A12009AF575 /* NTTourGuideTests */,
 				07B7DBBF1BC69A12009AF575 /* Products */,
@@ -130,6 +179,23 @@
 		07B7DBEA1BC69FC0009AF575 /* MediaFiles */ = {
 			isa = PBXGroup;
 			children = (
+				07B7DBF91BC69FFE009AF575 /* guidetravel.png alias 2 */,
+				07B7DBFA1BC69FFE009AF575 /* tenantcreek1.jpg alias 2 */,
+				07B7DBFB1BC69FFE009AF575 /* ww24.jpg alias 2 */,
+				07B7DBFC1BC69FFE009AF575 /* olgas.jpg */,
+				07B7DBFD1BC69FFE009AF575 /* NTMapHome.jpg alias 2 */,
+				07B7DBFE1BC69FFE009AF575 /* maryriver.jpg alias 2 */,
+				07B7DBFF1BC69FFE009AF575 /* maryriver.jpg alias 3 */,
+				07B7DC001BC69FFE009AF575 /* arnhem1.jpg alias 2 */,
+				07B7DC011BC69FFE009AF575 /* katherine.jpg alias */,
+				07B7DC021BC69FFE009AF575 /* kakadu.jpg alias 2 */,
+				07B7DC031BC69FFE009AF575 /* darwin1.jpg alias 2 */,
+				07B7DC041BC69FFE009AF575 /* ww25adelaide.jpg alias 2 */,
+				07B7DC051BC69FFE009AF575 /* NT_Map.png alias 2 */,
+				07B7DC061BC69FFE009AF575 /* ww22aviation.jpg alias 2 */,
+				07B7DC071BC69FFE009AF575 /* darwinhistory1.jpg alias 2 */,
+				07B7DC081BC69FFE009AF575 /* ww21tunnel.jpg */,
+				07B7DC091BC69FFE009AF575 /* ww23.jpg alias 2 */,
 				07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */,
 			);
 			name = MediaFiles;
@@ -215,9 +281,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B7DC191BC69FFE009AF575 /* ww21tunnel.jpg in Resources */,
+				07B7DC0C1BC69FFE009AF575 /* ww24.jpg alias 2 in Resources */,
+				07B7DC161BC69FFE009AF575 /* NT_Map.png alias 2 in Resources */,
+				07B7DC171BC69FFE009AF575 /* ww22aviation.jpg alias 2 in Resources */,
+				07B7DC151BC69FFE009AF575 /* ww25adelaide.jpg alias 2 in Resources */,
+				07B7DC181BC69FFE009AF575 /* darwinhistory1.jpg alias 2 in Resources */,
+				07B7DC0E1BC69FFE009AF575 /* NTMapHome.jpg alias 2 in Resources */,
+				07B7DC111BC69FFE009AF575 /* arnhem1.jpg alias 2 in Resources */,
 				07B7DBCD1BC69A12009AF575 /* Main.storyboard in Resources */,
+				07B7DC121BC69FFE009AF575 /* katherine.jpg alias in Resources */,
 				07B7DBD21BC69A12009AF575 /* LaunchScreen.xib in Resources */,
+				07B7DC0B1BC69FFE009AF575 /* tenantcreek1.jpg alias 2 in Resources */,
 				07B7DBEC1BC69FFE009AF575 /* Rmf.mp3 in Resources */,
+				07B7DC101BC69FFE009AF575 /* maryriver.jpg alias 3 in Resources */,
+				07B7DC141BC69FFE009AF575 /* darwin1.jpg alias 2 in Resources */,
+				07B7DC0A1BC69FFE009AF575 /* guidetravel.png alias 2 in Resources */,
+				07B7DC1A1BC69FFE009AF575 /* ww23.jpg alias 2 in Resources */,
+				07B7DC0F1BC69FFE009AF575 /* maryriver.jpg alias 2 in Resources */,
+				07B7DC0D1BC69FFE009AF575 /* olgas.jpg in Resources */,
+				07B7DC131BC69FFE009AF575 /* kakadu.jpg alias 2 in Resources */,
 				07B7DBCF1BC69A12009AF575 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B7DBEF1BC69FFE009AF575 /* WebViewController.m in Sources */,
+				07B7DBF61BC69FFE009AF575 /* clsFeedItem1.m in Sources */,
+				07B7DBF71BC69FFE009AF575 /* NTHighlightCell1.m in Sources */,
+				07B7DBF81BC69FFE009AF575 /* NTHighlightCellDIs1.m in Sources */,
 				07B7DBC71BC69A12009AF575 /* AppDelegate.m in Sources */,
 				07B7DBC41BC69A12009AF575 /* main.m in Sources */,
 				07B7DBE91BC69AA9009AF575 /* MainViewController.m in Sources */,
