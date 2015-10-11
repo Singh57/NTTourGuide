@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071257711BCA1A4900D5F76B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 071257701BCA1A4900D5F76B /* MapAnnotation.m */; };
 		072EA0D61BA8A59D00898694 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D11BA8A59D00898694 /* CollectionViewCell.m */; };
 		072EA0D71BA8A59D00898694 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D31BA8A59D00898694 /* CollectionViewController.m */; };
 		072EA0D81BA8A59D00898694 /* objectFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D51BA8A59D00898694 /* objectFeed.m */; };
@@ -44,6 +45,8 @@
 		072EA1241BC90A7E00898694 /* gallery512.png in Resources */ = {isa = PBXBuildFile; fileRef = 072EA1231BC90A7E00898694 /* gallery512.png */; };
 		072EA1261BC9F75500898694 /* NT_Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 072EA1251BC9F75500898694 /* NT_Map.png */; };
 		072EA1281BC9FC0700898694 /* maryriver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 072EA1271BC9FC0700898694 /* maryriver.jpg */; };
+		07A0DCC41BCA05D90095F0C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A0DCC31BCA05D90095F0C6 /* MapKit.framework */; };
+		07A0DCC81BCA081A0095F0C6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A0DCC71BCA081A0095F0C6 /* MapViewController.m */; };
 		07B7DBC41BC69A12009AF575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBC31BC69A12009AF575 /* main.m */; };
 		07B7DBC71BC69A12009AF575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBC61BC69A12009AF575 /* AppDelegate.m */; };
 		07B7DBCD1BC69A12009AF575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBCB1BC69A12009AF575 /* Main.storyboard */; };
@@ -69,6 +72,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0712576F1BCA1A4900D5F76B /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		071257701BCA1A4900D5F76B /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 		072EA0D01BA8A59D00898694 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = ../TableViewDemo2/TableViewDemo2/CollectionViewCell.h; sourceTree = "<group>"; };
 		072EA0D11BA8A59D00898694 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = ../TableViewDemo2/TableViewDemo2/CollectionViewCell.m; sourceTree = "<group>"; };
 		072EA0D21BA8A59D00898694 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = ../TableViewDemo2/TableViewDemo2/CollectionViewController.h; sourceTree = "<group>"; };
@@ -113,6 +118,9 @@
 		072EA1231BC90A7E00898694 /* gallery512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery512.png; sourceTree = "<group>"; };
 		072EA1251BC9F75500898694 /* NT_Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NT_Map.png; sourceTree = "<group>"; };
 		072EA1271BC9FC0700898694 /* maryriver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maryriver.jpg; sourceTree = "<group>"; };
+		07A0DCC31BCA05D90095F0C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		07A0DCC61BCA081A0095F0C6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		07A0DCC71BCA081A0095F0C6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		07B7DBBE1BC69A12009AF575 /* NTTourGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTourGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B7DBC21BC69A12009AF575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07B7DBC31BC69A12009AF575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -142,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A0DCC41BCA05D90095F0C6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,9 +186,21 @@
 			name = "New Group";
 			sourceTree = "<group>";
 		};
+		07A0DCC51BCA07DE0095F0C6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				07A0DCC61BCA081A0095F0C6 /* MapViewController.h */,
+				07A0DCC71BCA081A0095F0C6 /* MapViewController.m */,
+				0712576F1BCA1A4900D5F76B /* MapAnnotation.h */,
+				071257701BCA1A4900D5F76B /* MapAnnotation.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		07B7DBB51BC69A12009AF575 = {
 			isa = PBXGroup;
 			children = (
+				07A0DCC51BCA07DE0095F0C6 /* Map */,
 				072EA1041BC901C700898694 /* New Group */,
 				07B7DBCB1BC69A12009AF575 /* Main.storyboard */,
 				072EA0FD1BC8EC8F00898694 /* Radio */,
@@ -189,6 +210,7 @@
 				07B7DBDA1BC69A12009AF575 /* NTTourGuideTests */,
 				07B7DBBF1BC69A12009AF575 /* Products */,
 				07B7DBEA1BC69FC0009AF575 /* MediaFiles */,
+				07A0DCC31BCA05D90095F0C6 /* MapKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -356,6 +378,11 @@
 				TargetAttributes = {
 					07B7DBBD1BC69A12009AF575 = {
 						CreatedOnToolsVersion = 6.0.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					07B7DBD61BC69A12009AF575 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -441,6 +468,7 @@
 				072EA0F61BC8D39B00898694 /* Table1VCViewController.m in Sources */,
 				072EA0D81BA8A59D00898694 /* objectFeed.m in Sources */,
 				07B7DBEF1BC69FFE009AF575 /* WebViewController.m in Sources */,
+				071257711BCA1A4900D5F76B /* MapAnnotation.m in Sources */,
 				072EA0F51BC8D39B00898694 /* Table1VC.m in Sources */,
 				07B7DBF61BC69FFE009AF575 /* clsFeedItem1.m in Sources */,
 				07B7DBF71BC69FFE009AF575 /* NTHighlightCell1.m in Sources */,
@@ -450,6 +478,7 @@
 				072EA0D61BA8A59D00898694 /* CollectionViewCell.m in Sources */,
 				072EA1021BC8ECA800898694 /* Table2VC.m in Sources */,
 				072EA1031BC8ECA800898694 /* Table2VCViewController.m in Sources */,
+				07A0DCC81BCA081A0095F0C6 /* MapViewController.m in Sources */,
 				07B7DBE91BC69AA9009AF575 /* MainViewController.m in Sources */,
 				072EA0D71BA8A59D00898694 /* CollectionViewController.m in Sources */,
 			);
