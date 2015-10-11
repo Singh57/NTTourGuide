@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		071257711BCA1A4900D5F76B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 071257701BCA1A4900D5F76B /* MapAnnotation.m */; };
+		071257A51BCA2DA700D5F76B /* Marine Radio32 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */; };
+		071257A71BCA2DCC00D5F76B /* mapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 071257A61BCA2DCC00D5F76B /* mapicon.png */; };
 		072EA0D61BA8A59D00898694 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D11BA8A59D00898694 /* CollectionViewCell.m */; };
 		072EA0D71BA8A59D00898694 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D31BA8A59D00898694 /* CollectionViewController.m */; };
 		072EA0D81BA8A59D00898694 /* objectFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D51BA8A59D00898694 /* objectFeed.m */; };
@@ -54,7 +56,6 @@
 		07B7DBD21BC69A12009AF575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBD01BC69A12009AF575 /* LaunchScreen.xib */; };
 		07B7DBDE1BC69A12009AF575 /* NTTourGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBDD1BC69A12009AF575 /* NTTourGuideTests.m */; };
 		07B7DBE91BC69AA9009AF575 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBE81BC69AA9009AF575 /* MainViewController.m */; };
-		07B7DBEC1BC69FFE009AF575 /* Rmf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */; };
 		07B7DBEF1BC69FFE009AF575 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBED1BC69FFE009AF575 /* WebViewController.m */; };
 		07B7DBF61BC69FFE009AF575 /* clsFeedItem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF11BC69FFE009AF575 /* clsFeedItem1.m */; };
 		07B7DBF71BC69FFE009AF575 /* NTHighlightCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF31BC69FFE009AF575 /* NTHighlightCell1.m */; };
@@ -74,6 +75,9 @@
 /* Begin PBXFileReference section */
 		0712576F1BCA1A4900D5F76B /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
 		071257701BCA1A4900D5F76B /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marine Radio32 copy.png"; sourceTree = "<group>"; };
+		071257A61BCA2DCC00D5F76B /* mapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapicon.png; sourceTree = "<group>"; };
+		071257A91BCA30C400D5F76B /* CDU Darwin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "CDU Darwin.gpx"; sourceTree = "<group>"; };
 		072EA0D01BA8A59D00898694 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = ../TableViewDemo2/TableViewDemo2/CollectionViewCell.h; sourceTree = "<group>"; };
 		072EA0D11BA8A59D00898694 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = ../TableViewDemo2/TableViewDemo2/CollectionViewCell.m; sourceTree = "<group>"; };
 		072EA0D21BA8A59D00898694 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = ../TableViewDemo2/TableViewDemo2/CollectionViewController.h; sourceTree = "<group>"; };
@@ -134,7 +138,6 @@
 		07B7DBDD1BC69A12009AF575 /* NTTourGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTTourGuideTests.m; sourceTree = "<group>"; };
 		07B7DBE71BC69AA9009AF575 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		07B7DBE81BC69AA9009AF575 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
-		07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rmf.mp3; sourceTree = "<group>"; };
 		07B7DBED1BC69FFE009AF575 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		07B7DBEE1BC69FFE009AF575 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		07B7DBF01BC69FFE009AF575 /* clsFeedItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clsFeedItem1.h; sourceTree = "<group>"; };
@@ -164,6 +167,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071257AA1BCA346400D5F76B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				07A0DCC31BCA05D90095F0C6 /* MapKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		072EA0FD1BC8EC8F00898694 /* Radio */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +186,7 @@
 			name = Radio;
 			sourceTree = "<group>";
 		};
-		072EA1041BC901C700898694 /* New Group */ = {
+		072EA1041BC901C700898694 /* RSSFeed */ = {
 			isa = PBXGroup;
 			children = (
 				072EA0FE1BC8ECA800898694 /* Table2VC.h */,
@@ -183,7 +194,7 @@
 				072EA1001BC8ECA800898694 /* Table2VCViewController.h */,
 				072EA1011BC8ECA800898694 /* Table2VCViewController.m */,
 			);
-			name = "New Group";
+			name = RSSFeed;
 			sourceTree = "<group>";
 		};
 		07A0DCC51BCA07DE0095F0C6 /* Map */ = {
@@ -200,17 +211,17 @@
 		07B7DBB51BC69A12009AF575 = {
 			isa = PBXGroup;
 			children = (
+				07B7DBC01BC69A12009AF575 /* NTTourGuide */,
 				07A0DCC51BCA07DE0095F0C6 /* Map */,
-				072EA1041BC901C700898694 /* New Group */,
-				07B7DBCB1BC69A12009AF575 /* Main.storyboard */,
+				072EA1041BC901C700898694 /* RSSFeed */,
 				072EA0FD1BC8EC8F00898694 /* Radio */,
 				07B7DC1C1BC69FFE009AF575 /* CollectionViewHistCell2 */,
 				07B7DC1B1BC69FFE009AF575 /* CollectionViewCell */,
-				07B7DBC01BC69A12009AF575 /* NTTourGuide */,
 				07B7DBDA1BC69A12009AF575 /* NTTourGuideTests */,
 				07B7DBBF1BC69A12009AF575 /* Products */,
 				07B7DBEA1BC69FC0009AF575 /* MediaFiles */,
-				07A0DCC31BCA05D90095F0C6 /* MapKit.framework */,
+				071257AA1BCA346400D5F76B /* Framework */,
+				071257A91BCA30C400D5F76B /* CDU Darwin.gpx */,
 			);
 			sourceTree = "<group>";
 		};
@@ -226,6 +237,7 @@
 		07B7DBC01BC69A12009AF575 /* NTTourGuide */ = {
 			isa = PBXGroup;
 			children = (
+				07B7DBCB1BC69A12009AF575 /* Main.storyboard */,
 				07B7DBEE1BC69FFE009AF575 /* WebViewController.h */,
 				07B7DBED1BC69FFE009AF575 /* WebViewController.m */,
 				07B7DBC51BC69A12009AF575 /* AppDelegate.h */,
@@ -269,13 +281,14 @@
 			isa = PBXGroup;
 			children = (
 				072EA11B1BC9081800898694 /* Mobile Cast.png */,
+				071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */,
 				072EA1271BC9FC0700898694 /* maryriver.jpg */,
+				071257A61BCA2DCC00D5F76B /* mapicon.png */,
 				072EA1251BC9F75500898694 /* NT_Map.png */,
 				072EA1231BC90A7E00898694 /* gallery512.png */,
 				072EA11C1BC9081800898694 /* News-50.png */,
 				072EA11D1BC9081800898694 /* Menu Filled-32.png */,
 				072EA11E1BC9081800898694 /* Message Filled-50.png */,
-				07B7DBEB1BC69FFE009AF575 /* Rmf.mp3 */,
 				072EA0D91BC8D25A00898694 /* arnhem1.jpg */,
 				072EA0DA1BC8D25A00898694 /* contact-512.png */,
 				072EA0DB1BC8D25A00898694 /* darwin1.jpg */,
@@ -427,6 +440,7 @@
 				072EA1241BC90A7E00898694 /* gallery512.png in Resources */,
 				072EA0E81BC8D25A00898694 /* darwinhistory1.jpg in Resources */,
 				072EA11F1BC9081800898694 /* Mobile Cast.png in Resources */,
+				071257A71BCA2DCC00D5F76B /* mapicon.png in Resources */,
 				072EA1221BC9081800898694 /* Message Filled-50.png in Resources */,
 				072EA10A1BC903DE00898694 /* gallery.png in Resources */,
 				072EA11A1BC9046700898694 /* FacebookLogo.png in Resources */,
@@ -435,9 +449,9 @@
 				072EA0E61BC8D25A00898694 /* contact-512.png in Resources */,
 				07B7DBD21BC69A12009AF575 /* LaunchScreen.xib in Resources */,
 				072EA0ED1BC8D25A00898694 /* ww22aviation.jpg in Resources */,
-				07B7DBEC1BC69FFE009AF575 /* Rmf.mp3 in Resources */,
 				072EA1091BC903DE00898694 /* webSimple.png in Resources */,
 				07B7DBCF1BC69A12009AF575 /* Images.xcassets in Resources */,
+				071257A51BCA2DA700D5F76B /* Marine Radio32 copy.png in Resources */,
 				072EA0F01BC8D25A00898694 /* ww25adelaide.jpg in Resources */,
 				072EA1211BC9081800898694 /* Menu Filled-32.png in Resources */,
 				072EA1131BC9043900898694 /* map-location-fill-1-512.png in Resources */,
@@ -509,7 +523,6 @@
 				07B7DBCC1BC69A12009AF575 /* Base */,
 			);
 			name = Main.storyboard;
-			path = NTTourGuide;
 			sourceTree = "<group>";
 		};
 		07B7DBD01BC69A12009AF575 /* LaunchScreen.xib */ = {

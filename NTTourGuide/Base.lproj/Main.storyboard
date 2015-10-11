@@ -129,7 +129,7 @@
                                                     <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Marine Radio-32.png" id="Tf7-UJ-uXw">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Marine Radio32 copy.png" id="Tf7-UJ-uXw">
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -661,7 +661,7 @@
             </objects>
             <point key="canvasLocation" x="373" y="763"/>
         </scene>
-        <!--Map View Controller-->
+        <!--Map-->
         <scene sceneID="Spo-H3-4Vs">
             <objects>
                 <viewController id="ULl-ot-oFe" customClass="MapViewController" sceneMemberID="viewController">
@@ -730,7 +730,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="oy1-tt-JZe"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="mapicon.png" id="oy1-tt-JZe"/>
                     <connections>
                         <outlet property="mapview" destination="JWJ-fl-oAF" id="S5Y-qm-8uR"/>
                     </connections>
@@ -845,7 +845,7 @@
     <resources>
         <image name="FacebookLogo.png" width="256" height="256"/>
         <image name="Home Filled-32.png" width="32" height="32"/>
-        <image name="Marine Radio-32.png" width="32" height="32"/>
+        <image name="Marine Radio32 copy.png" width="50" height="50"/>
         <image name="Menu Filled-32.png" width="32" height="32"/>
         <image name="Message Filled-50.png" width="50" height="50"/>
         <image name="NT_Map.png" width="308" height="510"/>
@@ -855,6 +855,7 @@
         <image name="downloadr2.png" width="512" height="512"/>
         <image name="gallery512.png" width="512" height="512"/>
         <image name="guidetravel.png" width="512" height="512"/>
+        <image name="mapicon.png" width="32" height="31"/>
         <image name="maryriver.jpg" width="540" height="304"/>
         <image name="olgas.jpg" width="640" height="425"/>
         <image name="radio.png" width="256" height="256"/>

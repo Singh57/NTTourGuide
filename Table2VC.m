@@ -27,13 +27,7 @@
     
     feeds = [[NSMutableArray alloc]init];
     NSURL *url =[NSURL URLWithString:@"http://www.abc.net.au/news/feed/46182/rss.xml"];
-    //@"http://www.abc.net.au/radionational/feed/2887888/rss.xml"];
-                 //:@"http://splash.abc.net.au/xml/splash-rss-feed.xml"];
-                 //@"http://www.abc.net.au/sport/syndicate/sport_all.xml"];
-                 //@"http://www.abc.net.au/ra/rss/asiapacific.rss"];
-                 //@"http://www.sikhnet.com/sikhnet/news.nsf/sikhnetnews.rss"];
-                 //@"http://www.bbc.co.uk/radio1/rss/rss_radio1.xml"];
-                 //@"http://feeds.blogstreet.com/pub/97.rss"  ];        //@"http://www.sikhnet.com/sikhnet/news.nsf/sikhnetnews.rss"];
+
     parser = [[NSXMLParser alloc]initWithContentsOfURL:url];
     [parser setDelegate:self];
     [parser setShouldResolveExternalEntities:NO];

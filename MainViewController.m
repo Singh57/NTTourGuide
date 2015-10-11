@@ -27,11 +27,11 @@
 {
     [super viewWillAppear: animated];
     
-    NSString *music = [[NSBundle mainBundle] pathForResource:@"Rmf" ofType:@"mp3"];
+    /*NSString *music = [[NSBundle mainBundle] pathForResource:@"Rmf" ofType:@"mp3"];
     audioPLayer1=[[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
     audioPLayer1.delegate=self;
     audioPLayer1.numberOfLoops=-1;
-    [audioPLayer1 play];
+    [audioPLayer1 play];*/
 }
 
 - (void)viewWillDisappear:(BOOL)animated
