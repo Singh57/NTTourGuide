@@ -10,6 +10,8 @@
 		071257711BCA1A4900D5F76B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 071257701BCA1A4900D5F76B /* MapAnnotation.m */; };
 		071257A51BCA2DA700D5F76B /* Marine Radio32 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */; };
 		071257A71BCA2DCC00D5F76B /* mapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 071257A61BCA2DCC00D5F76B /* mapicon.png */; };
+		071257AD1BCA353000D5F76B /* contactusViewControlle.m in Sources */ = {isa = PBXBuildFile; fileRef = 071257AC1BCA353000D5F76B /* contactusViewControlle.m */; };
+		071257E61BCA38E500D5F76B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071257E51BCA38E500D5F76B /* MessageUI.framework */; };
 		072EA0D61BA8A59D00898694 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D11BA8A59D00898694 /* CollectionViewCell.m */; };
 		072EA0D71BA8A59D00898694 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D31BA8A59D00898694 /* CollectionViewController.m */; };
 		072EA0D81BA8A59D00898694 /* objectFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0D51BA8A59D00898694 /* objectFeed.m */; };
@@ -78,6 +80,9 @@
 		071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marine Radio32 copy.png"; sourceTree = "<group>"; };
 		071257A61BCA2DCC00D5F76B /* mapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapicon.png; sourceTree = "<group>"; };
 		071257A91BCA30C400D5F76B /* CDU Darwin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "CDU Darwin.gpx"; sourceTree = "<group>"; };
+		071257AB1BCA353000D5F76B /* contactusViewControlle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contactusViewControlle.h; sourceTree = "<group>"; };
+		071257AC1BCA353000D5F76B /* contactusViewControlle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contactusViewControlle.m; sourceTree = "<group>"; };
+		071257E51BCA38E500D5F76B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		072EA0D01BA8A59D00898694 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = ../TableViewDemo2/TableViewDemo2/CollectionViewCell.h; sourceTree = "<group>"; };
 		072EA0D11BA8A59D00898694 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = ../TableViewDemo2/TableViewDemo2/CollectionViewCell.m; sourceTree = "<group>"; };
 		072EA0D21BA8A59D00898694 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = ../TableViewDemo2/TableViewDemo2/CollectionViewController.h; sourceTree = "<group>"; };
@@ -153,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071257E61BCA38E500D5F76B /* MessageUI.framework in Frameworks */,
 				07A0DCC41BCA05D90095F0C6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +217,9 @@
 		07B7DBB51BC69A12009AF575 = {
 			isa = PBXGroup;
 			children = (
+				071257E51BCA38E500D5F76B /* MessageUI.framework */,
+				071257AB1BCA353000D5F76B /* contactusViewControlle.h */,
+				071257AC1BCA353000D5F76B /* contactusViewControlle.m */,
 				07B7DBC01BC69A12009AF575 /* NTTourGuide */,
 				07A0DCC51BCA07DE0095F0C6 /* Map */,
 				072EA1041BC901C700898694 /* RSSFeed */,
@@ -487,6 +496,7 @@
 				07B7DBF61BC69FFE009AF575 /* clsFeedItem1.m in Sources */,
 				07B7DBF71BC69FFE009AF575 /* NTHighlightCell1.m in Sources */,
 				07B7DBF81BC69FFE009AF575 /* NTHighlightCellDIs1.m in Sources */,
+				071257AD1BCA353000D5F76B /* contactusViewControlle.m in Sources */,
 				07B7DBC71BC69A12009AF575 /* AppDelegate.m in Sources */,
 				07B7DBC41BC69A12009AF575 /* main.m in Sources */,
 				072EA0D61BA8A59D00898694 /* CollectionViewCell.m in Sources */,

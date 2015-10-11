@@ -208,10 +208,10 @@
             </objects>
             <point key="canvasLocation" x="-710" y="810"/>
         </scene>
-        <!--View Controller-->
+        <!--Contactus View Controlle-->
         <scene sceneID="HQd-LK-ai2">
             <objects>
-                <viewController id="9gh-BQ-7Rl" sceneMemberID="viewController">
+                <viewController id="9gh-BQ-7Rl" customClass="contactusViewControlle" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7bS-d2-5nc"/>
                         <viewControllerLayoutGuide type="bottom" id="H9a-4Z-22x"/>
@@ -220,16 +220,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Feedback" translatesAutoresizingMaskIntoConstraints="NO" id="oVa-Fy-c7n">
-                                <rect key="frame" x="0.0" y="127" width="320" height="205"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQI-L2-qRM">
+                                <rect key="frame" x="129" y="380" width="50" height="45"/>
+                                <state key="normal" backgroundImage="Sent Filled-50.png"/>
+                                <connections>
+                                    <action selector="emailButton:" destination="9gh-BQ-7Rl" eventType="touchUpInside" id="M5R-LB-CCV"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Feedback: " translatesAutoresizingMaskIntoConstraints="NO" id="Jda-4A-9kX">
+                                <rect key="frame" x="0.0" y="160" width="320" height="188"/>
                                 <color key="backgroundColor" red="0.1544537201" green="0.33666606929999998" blue="0.34513099749999998" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQI-L2-qRM">
-                                <rect key="frame" x="130" y="349" width="50" height="45"/>
-                                <state key="normal" backgroundImage="Sent Filled-50.png"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
