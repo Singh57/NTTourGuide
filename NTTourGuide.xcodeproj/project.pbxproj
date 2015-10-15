@@ -176,6 +176,7 @@
 		071257AA1BCA346400D5F76B /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				071257A91BCA30C400D5F76B /* CDU Darwin.gpx */,
 				07A0DCC31BCA05D90095F0C6 /* MapKit.framework */,
 			);
 			name = Framework;
@@ -230,7 +231,6 @@
 				07B7DBBF1BC69A12009AF575 /* Products */,
 				07B7DBEA1BC69FC0009AF575 /* MediaFiles */,
 				071257AA1BCA346400D5F76B /* Framework */,
-				071257A91BCA30C400D5F76B /* CDU Darwin.gpx */,
 			);
 			sourceTree = "<group>";
 		};

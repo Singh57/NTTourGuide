@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-
+#import "WebViewController.h"
 @interface NTTourGuideTests : XCTestCase
 
 @end
@@ -24,13 +24,28 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
+-(void)testWebClass
+{
+    WebViewController *webClass = [[WebViewController alloc]init];
+    XCTAssertNotNil(webClass,@"To check weather a web class exisit or not");
+}
 
-- (void)testExample {
-    // This is an example of a functional test case.
+-(void)testWebPageCheck
+{
+    WebViewController *webPageCheck = [[WebViewController alloc]init];
+    XCTAssertNotNil(webPageCheck,@"To check weather a web page exisit or not");
+}
+
+-(void)testWeb
+{
+    XCTAssertTrue(@"http://www.travelnt.com/",@"to check for nt website");
+}
+
+- (void)testTable {
     XCTAssert(YES, @"Pass");
 }
 
-- (void)testPerformanceExample {
+- (void)testPerformance {
     // This is an example of a performance test case.
     [self measureBlock:^{
         // Put the code you want to measure the time of here.

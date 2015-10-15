@@ -16,6 +16,6 @@
     
 }
 @property (copy,nonatomic)NSString *url;
-@property(strong,nonatomic)IBOutlet UIWebView *webview;
+@property(strong,nonatomic)IBOutlet UIWebView *webviewForRSSFeed;
 
 @end

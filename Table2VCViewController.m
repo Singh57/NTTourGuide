@@ -18,13 +18,13 @@
     // Do any additional setup after loading the view.
     NSURL *URL = [NSURL URLWithString:[self.url stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-    [self.webview loadRequest:request];
-    [self.webview addSubview:ActInd];
+    [self.webviewForRSSFeed loadRequest:request];
+    [self.webviewForRSSFeed addSubview:ActInd];
     timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/2.0) target:self selector:@selector(loading) userInfo:nil repeats:YES];
 
 }
 -(void)loading{
-    if (!self.webview.loading)
+    if (!self.webviewForRSSFeed.loading)
           [ActInd stopAnimating];
     else
           [ActInd startAnimating];

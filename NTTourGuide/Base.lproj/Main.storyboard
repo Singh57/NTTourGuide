@@ -376,7 +376,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="ActInd" destination="8xe-UA-2yU" id="Eee-a9-OnF"/>
-                        <outlet property="webview" destination="aFw-6N-bT8" id="d5p-W6-KMd"/>
+                        <outlet property="webviewForRSSFeed" destination="aFw-6N-bT8" id="peI-kC-9Zu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eKq-y3-jy7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -562,22 +562,22 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKX-gI-4yV">
-                                                    <rect key="frame" x="170" y="152" width="22" height="22"/>
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKX-gI-4yV">
+                                                    <rect key="frame" x="148" y="160" width="22" height="22"/>
                                                     <state key="normal">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="hide:" destination="IEt-77-wfB" eventType="touchUpInside" id="ttg-dx-wYI"/>
+                                                        <action selector="hideButton:" destination="IEt-77-wfB" eventType="touchUpInside" id="ssb-6S-Vve"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vv-b4-9bU">
-                                                    <rect key="frame" x="133" y="152" width="22" height="22"/>
+                                                    <rect key="frame" x="148" y="160" width="22" height="22"/>
                                                     <state key="normal">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="unhideText:" destination="IEt-77-wfB" eventType="touchUpInside" id="jZa-LT-JBs"/>
+                                                        <action selector="unhideButton:" destination="IEt-77-wfB" eventType="touchUpInside" id="2Rv-vt-CHP"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -585,6 +585,8 @@
                                         </view>
                                         <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
+                                            <outlet property="buttonToUnhide" destination="3vv-b4-9bU" id="aAL-L4-1zN"/>
+                                            <outlet property="buttonTohide" destination="cKX-gI-4yV" id="Wur-Zh-tnq"/>
                                             <outlet property="imgPicture" destination="EZQ-kR-4Dd" id="WxW-eK-UrZ"/>
                                             <outlet property="txtText" destination="uLA-1d-X9Y" id="VqO-38-frH"/>
                                         </connections>
