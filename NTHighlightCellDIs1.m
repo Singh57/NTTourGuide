@@ -13,7 +13,6 @@
 @end
 
 @implementation NTHighlightCellDIs1
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -22,16 +21,16 @@
     [ItemsTable setDelegate:self];
     
     
-    clsFeedItem1 *Item1,*Item2 = [[clsFeedItem1 alloc]init];
-    [Item1 setImagePath:@"darwin1.jpg" ],[Item2 setImagePath:@"kakadu.jpg"];
-    [Item1 setText:@ "Sail across the harbour from Darwin to the Tiwi Islands, glide across wetlands and spot local wildlife, or cool off under a waterfall in Litchfield National Park, you'll be spoiled for choice in this very special city. "],[Item2 setText:@ "Cascading waterfalls, rugged escarpments, aboriginal rock art, giant crocodiles and exotic bird life. Kakadu National Park will change how you see the world. Experience the magic of this ancient land which is only a few hours from Darwin." ];
+    clsFeedItem1 *Item1 = [[clsFeedItem1 alloc]init];
+    [Item1 setText:@ "Sail across the harbour from Darwin to the Tiwi Islands, glide across wetlands and spot local wildlife, or cool off under a waterfall in Litchfield National Park, you'll be spoiled for choice in this very special city. "];
+    [Item1 setImagePath:@"darwin1.jpg" ];
+    
+    
+    clsFeedItem1 *Item2 = [[clsFeedItem1 alloc]init];
+    [Item2 setText:@ "Cascading waterfalls, rugged escarpments, aboriginal rock art, giant crocodiles and exotic bird life. Kakadu National Park will change how you see the world. Experience the magic of this ancient land which is only a few hours from Darwin." ];
+    [Item2 setImagePath:@"kakadu.jpg"];
  
 
-    
-
-    
-    
-    
     clsFeedItem1 *Item3 = [[clsFeedItem1 alloc]init];
     [Item3 setText:@"Arnhem Land is one of the Top End's most spectacular natural destinations. Its scenery is beautiful and diverse, including rugged coastlines, remote islands, rivers teeming with fish, lush rainforest, towering escarpments and savannah woodland."];
     [Item3 setImagePath:@"arnhem1.jpg"];
