@@ -14,17 +14,6 @@
     [txtText setText:FeedItem.Text];
     [imgPicture setImage:[UIImage imageNamed:FeedItem.ImagePath]];
     
-    //txtText.hidden = YES;
 }
-
-
-/*-(IBAction)unhideText:(id)sender;
-{
-    txtText.hidden = NO;
-}
--(IBAction)hide:(id)sender
-{
-    txtText.hidden = YES;
-}*/
 
 @end

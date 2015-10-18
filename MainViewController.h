@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface MainViewController : UIViewController<UIApplicationDelegate,AVAudioPlayerDelegate>
+@interface MainViewController : UIViewController<UIApplicationDelegate,AVAudioPlayerDelegate,UIScrollViewDelegate>
 
 {
     AVAudioPlayer *audioPLayer1;
@@ -19,6 +19,7 @@
 
 //-(void)embedFBLikeButton;
 @property (weak, nonatomic) IBOutlet UIButton *fb;
+
 -(IBAction)fbButtonTap:(id)sender;
 
 @end

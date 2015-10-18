@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-1082" y="810"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Menu-->
         <scene sceneID="jMv-EJ-Yfg">
             <objects>
-                <tableViewController id="xFe-13-1ZP" sceneMemberID="viewController">
+                <tableViewController title="Menu" id="xFe-13-1ZP" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="yoC-u4-4rn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,10 +208,10 @@
             </objects>
             <point key="canvasLocation" x="-710" y="810"/>
         </scene>
-        <!--Contactus View Controlle-->
+        <!--Feedback-->
         <scene sceneID="HQd-LK-ai2">
             <objects>
-                <viewController id="9gh-BQ-7Rl" customClass="contactusViewControlle" sceneMemberID="viewController">
+                <viewController title="Feedback" id="9gh-BQ-7Rl" customClass="contactusViewControlle" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7bS-d2-5nc"/>
                         <viewControllerLayoutGuide type="bottom" id="H9a-4Z-22x"/>
@@ -236,15 +236,18 @@
                         </subviews>
                         <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="emailText" destination="Jda-4A-9kX" id="EDi-rD-1z3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fit-kh-pdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-718" y="1509"/>
         </scene>
-        <!--Table1VC View Controller-->
+        <!--Radio-->
         <scene sceneID="76W-1E-JjP">
             <objects>
-                <viewController id="vjj-LF-kE3" customClass="Table1VCViewController" sceneMemberID="viewController">
+                <viewController title="Radio" id="vjj-LF-kE3" customClass="Table1VCViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Vv-lQ-vLR"/>
                         <viewControllerLayoutGuide type="bottom" id="t1L-67-YJs"/>
@@ -264,7 +267,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="radio.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yv4-jc-Cf2">
-                                <rect key="frame" x="71" y="150" width="179" height="148"/>
+                                <rect key="frame" x="83" y="154" width="155" height="148"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -278,10 +281,10 @@
             </objects>
             <point key="canvasLocation" x="712" y="1435"/>
         </scene>
-        <!--Table2VC-->
+        <!--News-->
         <scene sceneID="k5J-kI-70S">
             <objects>
-                <tableViewController id="VTC-Ab-dbb" customClass="Table2VC" sceneMemberID="viewController">
+                <tableViewController title="News" id="VTC-Ab-dbb" customClass="Table2VC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="IkX-Jo-u3S">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,10 +325,10 @@
             </objects>
             <point key="canvasLocation" x="-376" y="1529"/>
         </scene>
-        <!--Table2VC View Controller-->
+        <!--News-->
         <scene sceneID="RPf-Rr-NSg">
             <objects>
-                <viewController id="QJu-WP-06k" customClass="Table2VCViewController" sceneMemberID="viewController">
+                <viewController title="News" id="QJu-WP-06k" customClass="Table2VCViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nAg-3n-enR"/>
                         <viewControllerLayoutGuide type="bottom" id="Rqv-Mq-C9j"/>
@@ -383,14 +386,14 @@
             </objects>
             <point key="canvasLocation" x="-14" y="1529"/>
         </scene>
-        <!--Table1VC-->
+        <!--Radio-->
         <scene sceneID="s7X-4Q-ZRJ">
             <objects>
-                <tableViewController id="xAQ-V0-fIO" customClass="Table1VC" sceneMemberID="viewController">
+                <tableViewController title="Radio" id="xAQ-V0-fIO" customClass="Table1VC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="68P-Ua-X9M">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Cell" textLabel="bO1-XW-2JV" style="IBUITableViewCellStyleDefault" id="kHh-by-1Il">
@@ -422,10 +425,10 @@
             </objects>
             <point key="canvasLocation" x="352" y="1435"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery-->
         <scene sceneID="1Qw-Hh-xSw">
             <objects>
-                <viewController id="yrY-ga-Tiv" sceneMemberID="viewController">
+                <viewController title="Gallery" id="yrY-ga-Tiv" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4cy-FK-4nW"/>
                         <viewControllerLayoutGuide type="bottom" id="31Q-pB-aNZ"/>
@@ -445,14 +448,14 @@
             </objects>
             <point key="canvasLocation" x="-1182" y="1509"/>
         </scene>
-        <!--Table View Controller-->
+        <!--NTGuide-->
         <scene sceneID="Kzv-lc-RqN">
             <objects>
-                <tableViewController id="R9f-3H-50G" sceneMemberID="viewController">
+                <tableViewController title="NTGuide" id="R9f-3H-50G" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="78" sectionHeaderHeight="22" sectionFooterHeight="22" id="nTI-1x-6c4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection id="RDo-cC-psh">
@@ -524,10 +527,10 @@
             </objects>
             <point key="canvasLocation" x="-355" y="810"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--WW2 History-->
         <scene sceneID="CTm-uD-Dwc">
             <objects>
-                <viewController id="eTs-Lo-C6a" customClass="CollectionViewController" sceneMemberID="viewController">
+                <viewController title="WW2 History" id="eTs-Lo-C6a" customClass="CollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EvG-Ti-dxg"/>
                         <viewControllerLayoutGuide type="bottom" id="LqG-45-q1L"/>
@@ -604,10 +607,10 @@
             </objects>
             <point key="canvasLocation" x="47" y="273"/>
         </scene>
-        <!--Highlight CellD Is1-->
+        <!--NT Highlight-->
         <scene sceneID="HZw-QC-4LX">
             <objects>
-                <viewController id="jr9-gU-xCP" customClass="NTHighlightCellDIs1" sceneMemberID="viewController">
+                <viewController title="NT Highlight" id="jr9-gU-xCP" customClass="NTHighlightCellDIs1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C70-m0-3HX"/>
                         <viewControllerLayoutGuide type="bottom" id="rl6-XH-9bb"/>
@@ -681,7 +684,7 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qkP-d6-UVe">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="gzG-Hg-Dqa">
+                                    <navigationItem title="Map" id="gzG-Hg-Dqa">
                                         <barButtonItem key="rightBarButtonItem" id="bgL-pN-ZD7">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cgJ-mY-wMM">
                                                 <rect key="frame" x="-23" y="-15" width="71" height="30"/>
@@ -774,7 +777,7 @@
                                     <segue destination="hGw-5n-a34" kind="show" id="93o-qy-RDr"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YwD-mb-hD0">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YwD-mb-hD0">
                                 <rect key="frame" x="0.0" y="392" width="320" height="79"/>
                                 <color key="backgroundColor" red="0.1544537201" green="0.33666606929999998" blue="0.34513099749999998" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <string key="text">If you live for adventure and love the great outdoors, you've found your spiritual home in the Northern Territory. Walk, swim, sail or fly to experience the region's dramatic landscapes, diverse wildlife and ancient heritage, from vast red deserts, hidden waterholes and outback stations to plunging gorges, rocky outcrops and pristine white beaches.</string>
@@ -782,7 +785,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NT_Map.png" translatesAutoresizingMaskIntoConstraints="NO" id="d5k-0A-Zws">
-                                <rect key="frame" x="16" y="-18" width="294" height="419"/>
+                                <rect key="frame" x="16" y="-21" width="294" height="419"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -795,12 +798,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-718" y="61"/>
+            <point key="canvasLocation" x="-693" y="44"/>
         </scene>
-        <!--Web View Controller-->
+        <!--Website-->
         <scene sceneID="ANc-l0-VOZ">
             <objects>
-                <viewController id="hGw-5n-a34" customClass="WebViewController" sceneMemberID="viewController">
+                <viewController title="Website" id="hGw-5n-a34" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LQz-Rh-eKC"/>
                         <viewControllerLayoutGuide type="bottom" id="YnY-yT-aLv"/>
@@ -810,9 +813,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7v-zn-oyY">
-                                <rect key="frame" x="0.0" y="82" width="320" height="486"/>
+                                <rect key="frame" x="0.0" y="72" width="320" height="496"/>
                                 <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ku-NB-lQc">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Website" id="6kD-Oi-PuE"/>
+                                </items>
+                                <connections>
+                                    <outlet property="delegate" destination="6kD-Oi-PuE" id="ctu-dg-QmH"/>
+                                </connections>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.16200851469999999" green="0.5568627451" blue="0.5472847019" alpha="1" colorSpace="calibratedRGB"/>
                     </view>

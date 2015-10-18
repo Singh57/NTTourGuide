@@ -24,22 +24,19 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     MKCoordinateRegion region = { {0.0, 0.0}, {0.0,0.0}};
-    //MKCoordinateRegion museum = { {0.0, 0.0}, {0.0,0.0}};
     
+    //getting coordiantion from google map for darwin info. center
     region.center.latitude = -12.4638909;
     region.center.longitude = 130.8391971;
     
-    /*museum.center.latitude =-12.408312;
-    museum.center.longitude = 130.8162904;*/
-    
+    //setting initial zoom, when opening a map
     region.span.longitudeDelta = 0.01f;
-    
     region.span.latitudeDelta = 0.01f;
     
     [mapview setRegion:region animated:YES];
     
     
-    
+    //making an object of mapannotation class and allocating it memory, then assigning it description
     MapAnnotation *ann = [[MapAnnotation alloc] init];
     
     ann.title = @"Tourist Info. Center";
@@ -47,10 +44,7 @@
     ann.subtitle = @"Darwin";
     
     ann.coordinate = region.center;
-    
-    /*ann.title = @"Military museum";
-    ann.subtitle = @"Darwin";
-    ann.coordinate = museum.center;*/
+ 
     
     [mapview addAnnotation:ann];
     

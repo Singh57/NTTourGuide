@@ -23,6 +23,8 @@
 
 }
 
+
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear: animated];
@@ -47,7 +49,7 @@
 
 //}
 -(IBAction)fbButtonTap:(id)sender {
-    NSURL *fbURL = [[NSURL alloc] initWithString:@"https://www.facebook.com/SikhsInDarwin?ref_type=bookmark"];
+    NSURL *fbURL = [[NSURL alloc] initWithString:@"https://www.facebook.com/Tourism-NT-276124839224379/"];
     // check if app is installed
     if ( ! [[UIApplication sharedApplication] canOpenURL:fbURL] ) {
         // if we get here, we can't open the FB app.
@@ -64,15 +66,5 @@
 }
 
 
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
