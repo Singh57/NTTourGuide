@@ -62,6 +62,7 @@
 		07B7DBF61BC69FFE009AF575 /* clsFeedItem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF11BC69FFE009AF575 /* clsFeedItem1.m */; };
 		07B7DBF71BC69FFE009AF575 /* NTHighlightCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF31BC69FFE009AF575 /* NTHighlightCell1.m */; };
 		07B7DBF81BC69FFE009AF575 /* NTHighlightCellDIs1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */; };
+		07E1F4841BD5E01C0030FFA7 /* Rmf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		07B7DBF31BC69FFE009AF575 /* NTHighlightCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHighlightCell1.m; sourceTree = "<group>"; };
 		07B7DBF41BC69FFE009AF575 /* NTHighlightCellDIs1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHighlightCellDIs1.h; sourceTree = "<group>"; };
 		07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHighlightCellDIs1.m; sourceTree = "<group>"; };
+		07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rmf.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				072EA11B1BC9081800898694 /* Mobile Cast.png */,
+				07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */,
 				071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */,
 				072EA1271BC9FC0700898694 /* maryriver.jpg */,
 				071257A61BCA2DCC00D5F76B /* mapicon.png */,
@@ -443,6 +446,7 @@
 				072EA1151BC9043900898694 /* olgas.jpg in Resources */,
 				072EA1171BC9043900898694 /* RSS.png in Resources */,
 				072EA0E91BC8D25A00898694 /* guidetravel.png in Resources */,
+				07E1F4841BD5E01C0030FFA7 /* Rmf.mp3 in Resources */,
 				072EA1201BC9081800898694 /* News-50.png in Resources */,
 				072EA1281BC9FC0700898694 /* maryriver.jpg in Resources */,
 				072EA10C1BC903DE00898694 /* Home Filled-32.png in Resources */,

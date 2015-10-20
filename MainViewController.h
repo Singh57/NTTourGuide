@@ -15,11 +15,7 @@
     AVAudioPlayer *audioPLayer1;
 }
 
-//@property (strong, nonatomic) IBOutlet UIWebView *fbLikeWebView;
 
-//-(void)embedFBLikeButton;
-@property (weak, nonatomic) IBOutlet UIButton *fb;
 
--(IBAction)fbButtonTap:(id)sender;
 
 @end
