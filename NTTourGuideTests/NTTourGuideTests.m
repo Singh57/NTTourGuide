@@ -93,7 +93,7 @@
     XCTAssertNotNil(@"hello",@"its supposed to be nill");
 }
 
--(void)testnilForTableClass{
+/*-(void)testnilForTableClass{
     Table2VCViewController *tabl;
     XCTAssertNil(tabl,@"its nill");
     
@@ -115,6 +115,6 @@
     Table2VCViewController *tablllle =[[Table2VCViewController alloc]init];
     XCTAssertTrue(tablllle,@"its not nill though");
 
-}
+}*/
 
 @end

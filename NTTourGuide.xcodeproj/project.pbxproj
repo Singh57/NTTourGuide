@@ -32,7 +32,6 @@
 		072EA1021BC8ECA800898694 /* Table2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0FF1BC8ECA800898694 /* Table2VC.m */; };
 		072EA1031BC8ECA800898694 /* Table2VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA1011BC8ECA800898694 /* Table2VCViewController.m */; };
 		072EA1091BC903DE00898694 /* webSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 072EA1051BC903DE00898694 /* webSimple.png */; };
-		072EA10A1BC903DE00898694 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 072EA1061BC903DE00898694 /* gallery.png */; };
 		072EA10B1BC903DE00898694 /* downloadr2.png in Resources */ = {isa = PBXBuildFile; fileRef = 072EA1071BC903DE00898694 /* downloadr2.png */; };
 		072EA10C1BC903DE00898694 /* Home Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 072EA1081BC903DE00898694 /* Home Filled-32.png */; };
 		072EA1131BC9043900898694 /* map-location-fill-1-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 072EA10D1BC9043900898694 /* map-location-fill-1-512.png */; };
@@ -113,7 +112,6 @@
 		072EA1001BC8ECA800898694 /* Table2VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table2VCViewController.h; sourceTree = "<group>"; };
 		072EA1011BC8ECA800898694 /* Table2VCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table2VCViewController.m; sourceTree = "<group>"; };
 		072EA1051BC903DE00898694 /* webSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webSimple.png; sourceTree = "<group>"; };
-		072EA1061BC903DE00898694 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
 		072EA1071BC903DE00898694 /* downloadr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloadr2.png; sourceTree = "<group>"; };
 		072EA1081BC903DE00898694 /* Home Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Filled-32.png"; sourceTree = "<group>"; };
 		072EA10D1BC9043900898694 /* map-location-fill-1-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-location-fill-1-512.png"; sourceTree = "<group>"; };
@@ -232,7 +230,6 @@
 				07A0DCC51BCA07DE0095F0C6 /* Map */,
 				072EA1041BC901C700898694 /* RSSFeed */,
 				072EA0FD1BC8EC8F00898694 /* Radio */,
-				07B7DC1C1BC69FFE009AF575 /* CollectionViewHistCell2 */,
 				07B7DC1B1BC69FFE009AF575 /* CollectionViewCell */,
 				07B7DBDA1BC69A12009AF575 /* NTTourGuideTests */,
 				07B7DBBF1BC69A12009AF575 /* Products */,
@@ -265,6 +262,7 @@
 				07B7DBCE1BC69A12009AF575 /* Images.xcassets */,
 				07B7DBD01BC69A12009AF575 /* LaunchScreen.xib */,
 				07B7DBC11BC69A12009AF575 /* Supporting Files */,
+				07B7DC1C1BC69FFE009AF575 /* CollectionViewHistCell2 */,
 			);
 			path = NTTourGuide;
 			sourceTree = "<group>";
@@ -300,36 +298,35 @@
 			children = (
 				072EA11B1BC9081800898694 /* Mobile Cast.png */,
 				07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */,
-				071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */,
-				072EA1271BC9FC0700898694 /* maryriver.jpg */,
-				071257A61BCA2DCC00D5F76B /* mapicon.png */,
-				072EA1251BC9F75500898694 /* NT_Map.png */,
-				072EA1231BC90A7E00898694 /* gallery512.png */,
+				072EA10E1BC9043900898694 /* Marine Radio-32.png */,
+				072EA0DD1BC8D25A00898694 /* guidetravel.png */,
+				072EA10D1BC9043900898694 /* map-location-fill-1-512.png */,
 				072EA11C1BC9081800898694 /* News-50.png */,
-				072EA11D1BC9081800898694 /* Menu Filled-32.png */,
-				07E1F4881BD5EAAB0030FFA7 /* katherine.jpg */,
-				072EA11E1BC9081800898694 /* Message Filled-50.png */,
-				072EA0D91BC8D25A00898694 /* arnhem1.jpg */,
 				072EA0DA1BC8D25A00898694 /* contact-512.png */,
+				072EA11E1BC9081800898694 /* Message Filled-50.png */,
+				071257A61BCA2DCC00D5F76B /* mapicon.png */,
+				071257A41BCA2DA700D5F76B /* Marine Radio32 copy.png */,
+				072EA11D1BC9081800898694 /* Menu Filled-32.png */,
+				072EA1231BC90A7E00898694 /* gallery512.png */,
+				072EA10F1BC9043900898694 /* olgas.jpg */,
+				072EA1271BC9FC0700898694 /* maryriver.jpg */,
+				072EA1251BC9F75500898694 /* NT_Map.png */,
+				07E1F4881BD5EAAB0030FFA7 /* katherine.jpg */,
+				072EA0D91BC8D25A00898694 /* arnhem1.jpg */,
 				072EA0DB1BC8D25A00898694 /* darwin1.jpg */,
 				072EA0DC1BC8D25A00898694 /* darwinhistory1.jpg */,
-				072EA0DD1BC8D25A00898694 /* guidetravel.png */,
 				072EA0DE1BC8D25A00898694 /* kakadu.jpg */,
 				072EA0DF1BC8D25A00898694 /* tenantcreek1.jpg */,
-				072EA0E41BC8D25A00898694 /* ww25adelaide.jpg */,
 				072EA0E01BC8D25A00898694 /* ww21tunnel.jpg */,
 				072EA0E11BC8D25A00898694 /* ww22aviation.jpg */,
 				072EA0E21BC8D25A00898694 /* ww23.jpg */,
 				072EA0E31BC8D25A00898694 /* ww24.jpg */,
-				072EA10D1BC9043900898694 /* map-location-fill-1-512.png */,
-				072EA10E1BC9043900898694 /* Marine Radio-32.png */,
-				072EA10F1BC9043900898694 /* olgas.jpg */,
+				072EA0E41BC8D25A00898694 /* ww25adelaide.jpg */,
 				072EA1101BC9043900898694 /* radio.png */,
 				072EA1111BC9043900898694 /* RSS.png */,
 				072EA1191BC9046700898694 /* FacebookLogo.png */,
 				072EA1121BC9043900898694 /* Sent Filled-50.png */,
 				072EA1051BC903DE00898694 /* webSimple.png */,
-				072EA1061BC903DE00898694 /* gallery.png */,
 				072EA1071BC903DE00898694 /* downloadr2.png */,
 				072EA1081BC903DE00898694 /* Home Filled-32.png */,
 			);
@@ -360,6 +357,7 @@
 				072EA0D51BA8A59D00898694 /* objectFeed.m */,
 			);
 			name = CollectionViewHistCell2;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,7 +462,6 @@
 				072EA11F1BC9081800898694 /* Mobile Cast.png in Resources */,
 				071257A71BCA2DCC00D5F76B /* mapicon.png in Resources */,
 				072EA1221BC9081800898694 /* Message Filled-50.png in Resources */,
-				072EA10A1BC903DE00898694 /* gallery.png in Resources */,
 				072EA11A1BC9046700898694 /* FacebookLogo.png in Resources */,
 				072EA0EB1BC8D25A00898694 /* tenantcreek1.jpg in Resources */,
 				072EA0EE1BC8D25A00898694 /* ww23.jpg in Resources */,
