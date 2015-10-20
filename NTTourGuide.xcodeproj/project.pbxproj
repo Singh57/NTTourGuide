@@ -63,6 +63,7 @@
 		07B7DBF71BC69FFE009AF575 /* NTHighlightCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF31BC69FFE009AF575 /* NTHighlightCell1.m */; };
 		07B7DBF81BC69FFE009AF575 /* NTHighlightCellDIs1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */; };
 		07E1F4841BD5E01C0030FFA7 /* Rmf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */; settings = {ASSET_TAGS = (); }; };
+		07E1F4871BD5E08A0030FFA7 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E1F4861BD5E08A0030FFA7 /* FBViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,8 @@
 		07B7DBF41BC69FFE009AF575 /* NTHighlightCellDIs1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHighlightCellDIs1.h; sourceTree = "<group>"; };
 		07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHighlightCellDIs1.m; sourceTree = "<group>"; };
 		07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rmf.mp3; sourceTree = "<group>"; };
+		07E1F4851BD5E08A0030FFA7 /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		07E1F4861BD5E08A0030FFA7 /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +254,8 @@
 				07B7DBCB1BC69A12009AF575 /* Main.storyboard */,
 				07B7DBEE1BC69FFE009AF575 /* WebViewController.h */,
 				07B7DBED1BC69FFE009AF575 /* WebViewController.m */,
+				07E1F4851BD5E08A0030FFA7 /* FBViewController.h */,
+				07E1F4861BD5E08A0030FFA7 /* FBViewController.m */,
 				07B7DBC51BC69A12009AF575 /* AppDelegate.h */,
 				07B7DBC61BC69A12009AF575 /* AppDelegate.m */,
 				07B7DBE71BC69AA9009AF575 /* MainViewController.h */,
@@ -495,6 +500,7 @@
 			files = (
 				072EA0F61BC8D39B00898694 /* Table1VCViewController.m in Sources */,
 				072EA0D81BA8A59D00898694 /* objectFeed.m in Sources */,
+				07E1F4871BD5E08A0030FFA7 /* FBViewController.m in Sources */,
 				07B7DBEF1BC69FFE009AF575 /* WebViewController.m in Sources */,
 				071257711BCA1A4900D5F76B /* MapAnnotation.m in Sources */,
 				072EA0F51BC8D39B00898694 /* Table1VC.m in Sources */,

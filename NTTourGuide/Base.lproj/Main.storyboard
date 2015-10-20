@@ -826,13 +826,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="YwD-mb-hD0">
-                                <rect key="frame" x="0.0" y="335" width="320" height="253"/>
-                                <color key="backgroundColor" red="0.1544537201" green="0.33666606929999998" blue="0.34513099749999998" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <string key="text">If you live for adventure and love the great outdoors, you've found your spiritual home in the Northern Territory. Walk, swim, sail or fly to experience the region's dramatic landscapes, diverse wildlife and ancient heritage, from vast red deserts, hidden waterholes and outback stations to plunging gorges, rocky outcrops and pristine white beaches.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NT_Map.png" translatesAutoresizingMaskIntoConstraints="NO" id="d5k-0A-Zws">
+                                <rect key="frame" x="58" y="8" width="205" height="335"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQc-9L-avx">
                                 <rect key="frame" x="12" y="72" width="32" height="30"/>
                                 <state key="normal" backgroundImage="webSimple.png">
@@ -842,15 +838,22 @@
                                     <segue destination="hGw-5n-a34" kind="show" id="93o-qy-RDr"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NT_Map.png" translatesAutoresizingMaskIntoConstraints="NO" id="d5k-0A-Zws">
-                                <rect key="frame" x="58" y="8" width="205" height="335"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dtp-Xi-saE">
-                                <rect key="frame" x="10" y="116" width="37" height="30"/>
+                                <rect key="frame" x="10" y="110" width="37" height="30"/>
                                 <state key="normal" backgroundImage="FacebookLogo.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Arh-Y8-HiG" kind="show" id="TU9-m0-tsC"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="oSS-Gm-qnC">
+                                <rect key="frame" x="0.0" y="337" width="320" height="94"/>
+                                <color key="backgroundColor" red="0.1544537201" green="0.33666606929999998" blue="0.34513099749999998" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <string key="text">If you live for adventure and love the great outdoors, you've found your spiritual home in the Northern Territory. Walk, swim, sail or fly to experience the region's dramatic landscapes, diverse wildlife and ancient heritage, from vast red deserts, hidden waterholes and outback stations to plunging gorges, rocky outcrops and pristine white beaches.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.21792470689999999" green="0.45618299579999999" blue="0.52870501889999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -861,6 +864,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-693" y="44"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Aaz-eA-4E8">
+            <objects>
+                <viewController id="Arh-Y8-HiG" customClass="FBViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NsL-Z3-uA2"/>
+                        <viewControllerLayoutGuide type="bottom" id="N3p-Kp-ojP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="suV-51-JE7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fi-IC-d3Q">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="FBView" destination="1fi-IC-d3Q" id="0gj-It-y3d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pBq-k4-zIM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-314" y="-486"/>
         </scene>
         <!--Website-->
         <scene sceneID="ANc-l0-VOZ">
