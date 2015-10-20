@@ -64,6 +64,7 @@
 		07B7DBF81BC69FFE009AF575 /* NTHighlightCellDIs1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7DBF51BC69FFE009AF575 /* NTHighlightCellDIs1.m */; };
 		07E1F4841BD5E01C0030FFA7 /* Rmf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */; settings = {ASSET_TAGS = (); }; };
 		07E1F4871BD5E08A0030FFA7 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E1F4861BD5E08A0030FFA7 /* FBViewController.m */; settings = {ASSET_TAGS = (); }; };
+		07E1F4891BD5EAAB0030FFA7 /* katherine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07E1F4881BD5EAAB0030FFA7 /* katherine.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +157,7 @@
 		07E1F4831BD5E01C0030FFA7 /* Rmf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rmf.mp3; sourceTree = "<group>"; };
 		07E1F4851BD5E08A0030FFA7 /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
 		07E1F4861BD5E08A0030FFA7 /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
+		07E1F4881BD5EAAB0030FFA7 /* katherine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = katherine.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +307,7 @@
 				072EA1231BC90A7E00898694 /* gallery512.png */,
 				072EA11C1BC9081800898694 /* News-50.png */,
 				072EA11D1BC9081800898694 /* Menu Filled-32.png */,
+				07E1F4881BD5EAAB0030FFA7 /* katherine.jpg */,
 				072EA11E1BC9081800898694 /* Message Filled-50.png */,
 				072EA0D91BC8D25A00898694 /* arnhem1.jpg */,
 				072EA0DA1BC8D25A00898694 /* contact-512.png */,
@@ -479,6 +482,7 @@
 				072EA0E51BC8D25A00898694 /* arnhem1.jpg in Resources */,
 				072EA10B1BC903DE00898694 /* downloadr2.png in Resources */,
 				072EA0E71BC8D25A00898694 /* darwin1.jpg in Resources */,
+				07E1F4891BD5EAAB0030FFA7 /* katherine.jpg in Resources */,
 				072EA1141BC9043900898694 /* Marine Radio-32.png in Resources */,
 				072EA1261BC9F75500898694 /* NT_Map.png in Resources */,
 			);
