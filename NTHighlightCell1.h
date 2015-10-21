@@ -17,6 +17,4 @@
 }
 -(void)LoadCell:(clsFeedItem1*)Number;
 
-//-(IBAction)unhideText:(id)sender;
-//-(IBAction)hide:(id)sender;
 @end
